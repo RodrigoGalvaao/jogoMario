@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Super Mario Wold';
+    src: url(/jogoMario/fontes/SuperMarioWorld.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Super Mario Wold';
+}
+
+#cenario {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/jogoMario/imagens/cenario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ceu {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/jogoMario/imagens/cenarioceu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+#personagem {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(/jogoMario/imagens/marioAndandoLadoDireito.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    bottom: 98px;
+    left: 0;
+}
+
+#inimigo {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(/jogoMario/imagens/inimigoLadoEsquerdo.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    bottom: 98px;
+    right: 0;
+}
+
+#menudojogo {
+    position: absolute;
+    width: 1000px;
+    height: 150px;
+    background-image: url(/jogoMario/imagens/menuDoJogo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    top: 20px;
+}
+
+#bloquinho {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: url(/jogoMario/imagens/bloco.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    right: 600px;
+}
+
+
+#tempo {
+    position: absolute;
+    top: 92px;
+    right: 775px;
+    color: #ffdf73;
+    font-size: 25px;
+}
+
+#vidas {
+    position: absolute;
+    top: 105px;
+    left: 580px;
+    color: white;
+    font-size: 20px;
+}
+
+#moedas {
+    position: absolute;
+    top: 74px;
+    right: 550px;
+    color: white;
+    font-size: 20px;
+}
+
+#pontos {
+    position: absolute;
+    top: 100px;
+    right: 550px;
+    color: white;
+    font-size: 20px;
+}
+
